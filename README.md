@@ -1,12 +1,3 @@
-<a name="readme-top"></a>
-
-
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-
-</div>
-
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -23,16 +14,13 @@
 
 # 📖 Python Coding Challenges <a name="about-project"></a>
 
-> Welcome Sienberg Students! 
+Welcome Sienberg Students! Today we'll be exploring basic github functionality while working on python code challenges!
+Follow the steps below to 
 
 
 ## 🛠 Tech Stack <a name="tech-stack"></a>
-<details>
-  <ul>
-    <li><a href="https://www.python.org/">Python</a></li>
-    <li><a href="https://docs.pytest.org/en/7.2.x/">Pytest</a></li>
-  </ul>
-</details>
+- [Python](https://www.python.org/)
+- [Pytest](https://docs.pytest.org/en/7.2.x/)
 
 
 
@@ -45,12 +33,13 @@
 ### Prerequisites
 
 In order to run this project you need:
-[] python3 (https://docs.python-guide.org/starting/install3/osx/)
-[] github cli (https://github.com/cli/cli#installation)
-[] github account (https://github.com/)
-[] make [mac](https://formulae.brew.sh/formula/make) [windows](https://gnuwin32.sourceforge.net/packages/make.htm)
 
-```bash
+- [ ] [python3](https://docs.python-guide.org/starting/install3/osx/)
+- [ ] [github cli](https://github.com/cli/cli#installation)
+- [ ] [github account](https://github.com/)
+- [ ] [make for mac](https://formulae.brew.sh/formula/make) or [make for windows](https://gnuwin32.sourceforge.net/packages/make.htm)
+
+```Shell
   python3 --version # Python is installed
   git --version # Github is installed
   gh auth login # Sign into github
@@ -61,7 +50,7 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-```bash
+```Shell
   git clone git@github.com:WatsonWBlair/git_literate.git
 
 ```
@@ -71,7 +60,7 @@ Clone this repository to your desired folder:
 
 Install this project with:
 
-```bash
+```Shell
   sudo make init
 ```
 
@@ -98,5 +87,3 @@ To run the project, execute the following command:
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
