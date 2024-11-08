@@ -15,7 +15,16 @@
 # 📖 Python Coding Challenges <a name="about-project"></a>
 
 Welcome Sienberg Students! Today we'll be exploring basic github functionality while working on python code challenges!
-Follow the steps below to 
+Follow the steps below to set up the repository on your computer.
+
+You get a point for each of the following:
+- [ ] Merge a valid solution into `main` (10 points)
+- [ ] Provide feedback on a pull request (1 point)
+- [ ] Iterate on an existing solution (5 points)
+- [ ] Resolve a merge conflict (5 points)
+- [ ] ECT...
+
+Winner gets a prize!
 
 
 ## 🛠 Tech Stack <a name="tech-stack"></a>
