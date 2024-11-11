@@ -23,7 +23,7 @@ You get a point for each of the following:
 - [ ] Comment on a Pull Request (1 point)
 - [ ] Iterate on an existing solution (1 points)
 - [ ] Resolve a merge conflict (1 points)
-- [ ] ECT...
+- [ ] ETC...
 
 Winner gets a prize!
 
