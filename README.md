@@ -18,10 +18,11 @@ Welcome Sienberg Students! Today we'll be exploring basic github functionality w
 Follow the steps below to set up the repository on your computer.
 
 You get a point for each of the following:
-- [ ] Merge a valid solution into `main` (10 points)
+- [ ] Merge a valid solution into `main` (2 points)
 - [ ] Provide feedback on a pull request (1 point)
-- [ ] Iterate on an existing solution (5 points)
-- [ ] Resolve a merge conflict (5 points)
+- [ ] Comment on a Pull Request (1 point)
+- [ ] Iterate on an existing solution (1 points)
+- [ ] Resolve a merge conflict (1 points)
 - [ ] ECT...
 
 Winner gets a prize!
@@ -61,7 +62,6 @@ Clone this repository to your desired folder:
 
 ```Shell
   git clone git@github.com:WatsonWBlair/git_literate.git
-
 ```
 
 
@@ -82,7 +82,7 @@ To run the project, execute the following command:
 ```bash
     git checkout <branch-name> #checkout a working branch
 
-    pytest <challenge-name>_test.py -p no:cacheprovider # test a specific challenge
+    pytest -p no:cacheprovider <challenge-name>_test.py # test a specific challenge
     pytest -p no:cacheprovider # test all challenges
 
     git commit -am 'feat: <challenge-name> Complete!' # Commit changes to your local branch
