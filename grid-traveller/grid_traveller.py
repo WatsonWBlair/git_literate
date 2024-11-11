@@ -8,14 +8,4 @@
 
 def grid_traveller(m, n, memo={}):
   ''' Returns the number of ways one can travel on a grid with m * n dimensions '''
-  
-  if (m,n) in memo:
-    return memo[(m,n)]
-
-  if m == 1 and n == 1:
-    return 1
-  if m == 0 or n == 0:
-    return 0
-  
-  memo[(m,n)] = grid_traveller(m-1, n, memo) + grid_traveller(m, n-1, memo)
-  return memo[(m,n)]
+  return m
