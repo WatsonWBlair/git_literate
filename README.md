@@ -69,7 +69,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```Shell
-  git clone git@github.com:WatsonWBlair/git_literate.git
+  gh repo clone WatsonWBlair/git_literate
 ```
 
 
