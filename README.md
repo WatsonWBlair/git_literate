@@ -19,12 +19,20 @@ Follow the steps below to set up the repository on your computer.
 
 You get a point for each of the following:
 - [ ] Merge a valid solution into `main` (2 points)
+  - [ ] Once the pull request is reviewed and approved, merge it into `main` using "Merge commit"
+  - [ ] Update local branch and push the changes to the repository. 
 - [ ] Provide feedback on a pull request (1 point)
-- [ ] Comment on a Pull Request (1 point)
+  - [ ] Review the pull request by examining the changes in the "Files changed" tab.
+  - [ ] Leave feedback, and either approving or requesting revisions. Ensure all tests pass before finalizing the review.
 - [ ] Iterate on an existing solution (1 points)
+  - [ ] Pull the latest changes from main
+  - [ ] Address feedback, implement the required changes, test the code, and push the updated branch.
+  - [ ] The pull request will update automatically for further review and, once accepted, can be merged into main.
 - [ ] Resolve a merge conflict (1 points)
+  - [ ] Pull the latest changes from main.
+  - [ ] Review and resolve conflicts in the affected files, then commit, and push the changes.
+  - [ ] The pull request will update, and the conflict will be resolved for merging.
 - [ ] ECT...
-
 Winner gets a prize!
 
 
