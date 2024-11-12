@@ -53,7 +53,6 @@ Winner gets a prize!
 In order to run this project you need:
 
 - [ ] [python3](https://docs.python-guide.org/starting/install3/osx/)
-- [ ] [github cli](https://github.com/cli/cli#installation)
 - [ ] [github account](https://github.com/)
 - [ ] [make for mac](https://formulae.brew.sh/formula/make) or [make for windows](https://gnuwin32.sourceforge.net/packages/make.htm)
 
