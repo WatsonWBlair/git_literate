@@ -41,7 +41,10 @@ You get 1 point the first time you do each of the following:
   - [ ] Review and resolve conflicts in the affected files, then commit, and push the changes.
     - [ ] ensure that your commit message contains information about the merge conflict.
 - [ ] Resolve a requested change on one of your PRs
-  - [ ] After another user has `requested changes` on your PR, resolve the 
+  - [ ] After another user has `requested changes` on your PR, resolve the issue.
+- [ ] Open a `Draft Pull Request`
+  - [ ] When opening a pull request, select the option `Open Draft PR` instead of `Open PR`.
+
 
 
 You get 1 point each time you do one of the following:
