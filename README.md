@@ -82,8 +82,8 @@ To run the project, execute the following command:
 ```bash
     git checkout <branch-name> #checkout a working branch
 
-    pytest <challenge-name>_test.py -p no:cacheprovider # test a specific challenge
-    pytest -p no:cacheprovider # test all challenges
+    pytest <challenge-name>_test.py # test a specific challenge
+    pytest # test all challenges
 
     git commit -am 'feat: <challenge-name> Complete!' # Commit changes to your local branch
     git push # Update the remote branches git history to match the local branch
