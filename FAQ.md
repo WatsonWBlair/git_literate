@@ -17,3 +17,7 @@ A: No, you don’t need it. You can simply run:
 pytest all-construct/all_construct_test.py
 The -p no:cacheprovider option is only needed in special cases to disable caching, so it’s usually fine to leave it out.
 
+Q: How does caching impact whether tests are checking the latest version of a file?
+
+A: When caching is enabled, it can store previous versions of files or test results to speed up test execution. However, this can prevent tests from accessing the most recent content of a file, potentially leading to outdated or misleading results. To ensure your tests validate the latest content, you may need to clear or disable the cache before running them, or configure your cache settings to refresh as needed. This way, tests will be guaranteed to work with the current file version.
+
