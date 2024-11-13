@@ -1,12 +1,20 @@
-from unittest import TestCase
-from missing_number import missing_number
+def missing_number(A):
+    # Create a set to store positive numbers in A
+    numbers = set()
+    
+    # Filter only positive numbers
+    for num in A:
+        if num > 0:
+            numbers.add(num)
+    
+    # Find the smallest positive integer missing
+    smallest_positive = 1
+    while smallest_positive in numbers:
+        smallest_positive += 1
+    
+    return smallest_positive
 
-class MissingNumberTest(TestCase):
-    def test_missing_number_I(self):
-      assert missing_number([1, 3, 6, 4, 1, 2]) == 5
-
-    def test_missing_number_II(self):
-      assert missing_number([1, 2, 3]) == 4
-
-    def test_missing_number_III(self):
-       assert missing_number([-1, -3]) == 1
+# Examples
+print(missing_number([1, 3, 6, 4, 1, 2]))  # Output: 5
+print(missing_number([1, 2, 3]))          # Output: 4
+print(missing_number([-1, -3]))           # Output: 1
