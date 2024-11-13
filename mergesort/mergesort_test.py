@@ -2,6 +2,10 @@ from unittest import TestCase
 from mergesort import mergesort
 
 class MergeSortTest(TestCase):
+    """
+    This class contains unit tests for the mergesort function.
+    Each test case verifies the correctness of the mergesort algorithm on a specific input array.
+    """
     def test_mergesort_I(self):
       assert mergesort([6, 3, 5, 1], 4) == [1, 3, 5, 6]
 
