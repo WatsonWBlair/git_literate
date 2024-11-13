@@ -26,7 +26,3 @@ def best_sum(target_sum, numbers, memo = {}):
                     best_combination = combination
     memo[target] = best_combination
     return best_combination
-
-
-  
-
