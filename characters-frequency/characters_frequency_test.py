@@ -1,5 +1,5 @@
 from unittest import TestCase
-from sort_by_frequency import sort_by_frequency
+from characters_frequency import sort_by_frequency
 
 class SortCharactersByFrequencyTest(TestCase):
     def test_sort_by_frequency_I(self):
