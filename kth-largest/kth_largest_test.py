@@ -1,5 +1,5 @@
 from unittest import TestCase
-from kth_largest_numbers import kth_largest_number
+from kth_largest import kth_largest_number
 
 class KthLargestTest(TestCase):
     def test_kth_largest_number_I(self):
