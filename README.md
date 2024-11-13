@@ -67,7 +67,8 @@ You get 1 point each time you do one of the following:
 - [ ] Add a new item to `Lessons_Learned.md`
   - What do know now that you wish you had know before beginning the workshop?
   - What will you be sure to remember for the future?
-- [ ] ECT...
+- [ ] ETC...
+
 Winner gets a prize!
 
 
