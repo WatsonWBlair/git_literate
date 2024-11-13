@@ -15,25 +15,59 @@
 # 📖 Python Coding Challenges <a name="about-project"></a>
 
 Welcome Sienberg Students! Today we'll be exploring basic github functionality while working on python code challenges!
-Follow the steps below to set up the repository on your computer.
+Record your own score using the rubric below, remember that you will have to prove your final tally before receiving any prizes; so keep be prepared to provide links to the commits, comments and pull requests you get points for!
 
-You get a point for each of the following:
-- [ ] Merge a valid solution into `main` (2 points)
-  - [ ] Once the pull request is reviewed and approved, merge it into `main` using "Merge commit"
-  - [ ] Update local branch and push the changes to the repository. 
-- [ ] Provide feedback on a pull request (1 point)
-  - [ ] Review the pull request by examining the changes in the "Files changed" tab.
-  - [ ] Leave feedback, and either approving or requesting revisions. Ensure all tests pass before finalizing the review.
+Please note that using ChatGPT or other generative AI tools to solve any coding challenges will result in disqualification from wining any prizes.
+
+Point will be deducted for poor behavior: mean comments, frivolous use of `Request Changes`, ect... BE KIND TO EACH OTHER!
+
+You get 1 point the first time you do each of the following:
+- [ ] Create a local branch
+  - [ ] ensure you have the latest version of main using `git checkout main && git pull`
+  - [ ] create a new local branch using `git checkout -b <branch_name>`
+- [ ] Push a local branch to remote
+  - [ ] from your local working branch use `git push --set-upstream origin <branch_name>`
+- [ ] Label a Pull Request appropriately
+  - [ ] Open a pull request with a valid code change
+  - [ ] Add a label using Github's UI
+- [ ] Comment on a pull request
+  - [ ] add a comment praising something about the pull request (eg: code formatting, variable naming, solution efficiency, ect...)
+- [ ] Suggest a change to an open PR
+  - [ ] use Github's UI to suggest a code change to an open PR (regardless of if it's accepted or not).
+- [ ] Resolve a merge conflict
+  - [ ] ensure you have the latest version of main using `git checkout main && git pull`
+  - [ ] checkout your working branch.
+  - [ ] Merge `main` into your current branch using `git merge main`
+  - [ ] Review and resolve conflicts in the affected files, then commit, and push the changes.
+    - [ ] ensure that your commit message contains information about the merge conflict.
+- [ ] Resolve a requested change on one of your PRs
+  - [ ] After another user has `requested changes` on your PR, resolve the issue.
+- [ ] Open a `Draft Pull Request`
+  - [ ] When opening a pull request, select the option `Open Draft PR` instead of `Open PR`.
+
+
+
+You get 1 point each time you do one of the following:
+- [ ] Merge a valid solution into `main` (1 point)
+  - [ ] Note that a valid PR contains code changes relevant to only ONE challenge.
+  - [ ] Open a pull request from your branch to main that introduces a new, valid, solution to a coding challenge.
+  - [ ] Address feedback, implement the required changes, test the code, and push the updated branch.
+  - [ ] The pull request will update automatically for further review and, once accepted, can be merged into main. [Note that reviews become `stale`/invalid if a commit is pushed to a branch after approval is given]
 - [ ] Iterate on an existing solution (1 points)
-  - [ ] Pull the latest changes from main
+  - [ ] Open a pull request from your branch to main that contains an improvement to an existing solution.
   - [ ] Address feedback, implement the required changes, test the code, and push the updated branch.
   - [ ] The pull request will update automatically for further review and, once accepted, can be merged into main.
-- [ ] Resolve a merge conflict (1 points)
-  - [ ] Pull the latest changes from main.
-  - [ ] Review and resolve conflicts in the affected files, then commit, and push the changes.
-  - [ ] The pull request will update, and the conflict will be resolved for merging.
+- [ ] Leave a meaningful review on an open pull request (1 point)
+  - [ ] Review the pull request by examining the changes in the "Files changed" tab.
+  - [ ] Leave feedback, and either approve the PR or request changes.
+  - [ ] Ensure that all relevant tests pass before finalizing the review.
+- [ ] Collaborate with someone on the same Branch / Pull Request (1 point)
+  - [ ] Coordinate with a peer to work the same branch.
+  - Be careful about merge conflicts!
+- [ ] Add a new item to `Lessons_Learned.md`
+  - What do know now that you wish you had know before beginning the workshop?
+  - What will you be sure to remember for the future?
 - [ ] ETC...
-
 
 Winner gets a prize!
 
@@ -71,7 +105,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```Shell
-  git clone git@github.com:WatsonWBlair/git_literate.git
+  gh repo clone WatsonWBlair/git_literate
 ```
 
 
