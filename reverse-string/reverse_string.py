@@ -3,4 +3,4 @@ def reverse_string(str):
 
   
 
-  return str[::-1]
+  return str
